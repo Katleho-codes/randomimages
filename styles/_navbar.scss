@@ -1,0 +1,79 @@
+@import "./colors";
+
+// Navbar
+.navbar {
+    background-color: $White;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.logo {
+    fill: $Black;
+}
+
+button.burger_menu {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    .burger_icon {
+        cursor: pointer;
+        width: 2rem;
+        height: 2rem;
+        fill: $Black;
+    }
+}
+
+
+.menus {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+
+}
+
+
+.menu_links {
+    a {
+        color: $Black;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+}
+
+.apply_btn {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+}
+
+@media (max-width:1000px) {
+
+    .menus,
+    .apply_btn {
+        display: none;
+    }
+}
