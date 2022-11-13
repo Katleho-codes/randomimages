@@ -1,7 +1,12 @@
-import next from "next";
+import dynamic from "next/dynamic";
 
 const about = () => {
-  return <div></div>;
+  const Footer = dynamic(() => import("./components/footer"));
+  return (
+    <div>
+      <Footer />
+    </div>
+  );
 };
 
 export default about;

@@ -11,7 +11,8 @@
     top: 0;
     width: 100%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-
+    z-index: 1;
+    height: 5rem;
 }
 
 .logo {
@@ -48,16 +49,20 @@ button.burger_menu {
     a {
         color: $Black;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1rem;
         text-align: center;
-    }
 
+        &:active,
+        &:hover {
+            color: $Orange;
+        }
+    }
 
 }
 
 .apply_btn {
-    background-color: #4CAF50;
+    background-color: $Orange;
     /* Green */
     border: none;
     border-radius: 4px;
@@ -68,9 +73,19 @@ button.burger_menu {
     display: inline-block;
     font-size: 16px;
     margin-left: auto;
+
+    &:active,
+    &:hover {
+        background-color: $Blue;
+        color: $White;
+    }
 }
 
 @media (max-width:1000px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
 
     .menus,
     .apply_btn {

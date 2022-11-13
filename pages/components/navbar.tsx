@@ -41,18 +41,8 @@ const navbar = () => {
             </Link>
           </li>
           <li className="menu_links">
-            <Link className="menu_link" href="/study">
-              Study at Sedibeng
-            </Link>
-          </li>
-          <li className="menu_links">
-            <Link className="menu_link" href="/academic">
-              Academic
-            </Link>
-          </li>
-          <li className="menu_links">
-            <Link className="menu_link" href="/about">
-              About us
+            <Link className="menu_link" href="/models/all">
+              Models
             </Link>
           </li>
           <li className="menu_links">
@@ -61,8 +51,8 @@ const navbar = () => {
             </Link>
           </li>
           <li className="menu_links">
-            <Link className="menu_link" href="/support">
-              Support
+            <Link className="menu_link" href="/about">
+              About us
             </Link>
           </li>
           <li className="menu_links">
@@ -71,7 +61,7 @@ const navbar = () => {
             </Link>
           </li>
         </ul>
-        <Link href="/applications" className="apply_btn">
+        <Link href="/apply" className="apply_btn">
           Apply
         </Link>
       </nav>
