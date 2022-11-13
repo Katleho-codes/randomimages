@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import img1 from "../images/models/w1.jpg";
-import img2 from "../images/models/w2.jpg";
-import img3 from "../images/models/w3.jpg";
-import img5 from "../images/models/w5.jpg";
-import img6 from "../images/models/w6.jpg";
-import img7 from "../images/models/w7.jpg";
+import img1 from "../../public/images/models/w1.jpg";
+import img2 from "../../public/images/models/w2.jpg";
+import img3 from "../../public/images/models/w3.jpg";
+import img5 from "../../public/images/models/w5.jpg";
+import img6 from "../../public/images/models/w6.jpg";
+import img7 from "../../public/images/models/w7.jpg";
 import dynamic from "next/dynamic";
 
 const Women = () => {

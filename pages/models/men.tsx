@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import img1 from "../images/models/m1.jpg";
-import img2 from "../images/models/m2.jpg";
-import img3 from "../images/models/m3.jpg";
-import img4 from "../images/models/m4.jpg";
-import img5 from "../images/models/m5.jpg";
-import img6 from "../images/models/m6.jpg";
+import img1 from "../../public/images/models/m1.jpg";
+import img2 from "../../public/images/models/m2.jpg";
+import img3 from "../../public/images/models/m3.jpg";
+import img4 from "../../public/images/models/m4.jpg";
+import img5 from "../../public/images/models/m5.jpg";
+import img6 from "../../public/images/models/m6.jpg";
 import dynamic from "next/dynamic";
 
 const Men = () => {

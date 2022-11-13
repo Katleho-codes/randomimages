@@ -1,18 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import man1 from "../images/models/m1.jpg";
-import man2 from "../images/models/m2.jpg";
-import man3 from "../images/models/m3.jpg";
-import man4 from "../images/models/m4.jpg";
-import man5 from "../images/models/m5.jpg";
-import man6 from "../images/models/m6.jpg";
-import woman1 from "../images/models/w1.jpg";
-import woman2 from "../images/models/w2.jpg";
-import woman3 from "../images/models/w3.jpg";
-import woman5 from "../images/models/w5.jpg";
-import woman6 from "../images/models/w6.jpg";
-import woman7 from "../images/models/w7.jpg";
+import man1 from "../../public/images/models/m1.jpg";
+import man2 from "../../public/images/models/m2.jpg";
+import man3 from "../../public/images/models/m3.jpg";
+import man4 from "../../public/images/models/m4.jpg";
+import man5 from "../../public/images/models/m5.jpg";
+import man6 from "../../public/images/models/m6.jpg";
+import woman1 from "../../public/images/models/w1.jpg";
+import woman2 from "../../public/images/models/w2.jpg";
+import woman3 from "../../public/images/models/w3.jpg";
+import woman5 from "../../public/images/models/w5.jpg";
+import woman6 from "../../public/images/models/w6.jpg";
+import woman7 from "../../public/images/models/w7.jpg";
 
 const Allmodels = () => {
   const Footer = dynamic(() => import("../components/footer"));

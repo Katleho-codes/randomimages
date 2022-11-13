@@ -80,7 +80,7 @@ button.burger_menu .burger_icon {
   }
 }
 .hero_image {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../pages/images/models/background_desktop.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../public/images/models/background_desktop.jpg");
   height: calc(100vh - 5rem);
   background-position: top center;
   background-repeat: no-repeat;
@@ -127,7 +127,7 @@ button.burger_menu .burger_icon {
 
 @media (max-width: 800px) {
   .hero_image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../pages/images/models/background_mobile.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../public/images/models/background_desktop.jpg");
     height: calc(100vh - 5rem);
     background-position: center center;
     background-repeat: no-repeat;
