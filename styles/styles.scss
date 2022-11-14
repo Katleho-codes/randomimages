@@ -5,6 +5,7 @@
 @import "./footer";
 @import "./models";
 @import "./contact";
+@import "./sidebar";
 
 *,
 *::before,
@@ -23,6 +24,7 @@ body {
 .container {
     width: 90%;
     margin-inline: auto;
+    margin-bottom: 3rem;
 }
 
 .text-center {
@@ -46,4 +48,5 @@ body {
 main {
     position: relative;
     top: 4px;
+
 }

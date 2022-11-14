@@ -23,6 +23,7 @@ button.burger_menu {
     background: transparent;
     border: none;
     cursor: pointer;
+    display: none;
 
     .burger_icon {
         cursor: pointer;
@@ -85,6 +86,10 @@ button.burger_menu {
     .navbar {
         display: flex;
         justify-content: space-between;
+    }
+
+    button.burger_menu {
+        display: block;
     }
 
     .menus,

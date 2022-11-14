@@ -54,8 +54,8 @@ section.images_home {
     justify-content: center;
 
     .col {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         overflow: hidden;
     }
 
@@ -66,7 +66,33 @@ section.images_home {
 
 }
 
-section.who_we_are {}
+section.brands {
+    position: relative;
+    top: 50px;
+
+
+    .row {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .brand_card {
+        width: 25%;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+
+        svg {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+}
 
 @media (max-width:800px) {
 
@@ -97,5 +123,30 @@ section.who_we_are {}
             height: auto;
         }
 
+    }
+
+    section.brands {
+
+        h1 {
+            font-size: 2rem;
+        }
+
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            // margin-top: 1rem;
+        }
+
+        .brand_card {
+            width: 100%;
+
+            svg {
+                width: 8rem;
+                height: 8rem;
+            }
+        }
     }
 }

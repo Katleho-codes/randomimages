@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import { useState } from "react";
-const contact = () => {
+
+const Contact = () => {
   const [state, setState] = useState({
     fname: "",
     email: "",
@@ -92,4 +93,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

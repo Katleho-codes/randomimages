@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
-const navbar = () => {
+const Navbar = () => {
+  const [isOpen, setIsopen] = useState(false);
+
+  const ToggleSidebar = () => {
+    isOpen === true ? setIsopen(false) : setIsopen(true);
+  };
+
   return (
     <>
       <nav className="navbar">
-        <button className="burger_menu">
+        <button className="burger_menu" onClick={ToggleSidebar}>
           <svg
             className="burger_icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -60,8 +66,51 @@ const navbar = () => {
           Apply
         </Link>
       </nav>
+      <aside className={`sidebar ${isOpen === true ? "active" : ""}`}>
+        <div className="sd-header">
+          {/* <h4 className="mb-0">Sidebar Header</h4> */}
+          <button className="btn close_button" onClick={ToggleSidebar}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z" />
+            </svg>
+          </button>
+        </div>
+        <div className="sd-body">
+          <ul>
+            <li className="sidebar_links">
+              <Link className="sidebar_link" href="/">
+                Home
+              </Link>
+            </li>
+            <li className="sidebar_links">
+              <Link className="sidebar_link" href="/models/all">
+                Models
+              </Link>
+            </li>
+            <li className="sidebar_links">
+              <Link className="sidebar_link" href="/contact">
+                Contact
+              </Link>
+            </li>
+            <li className="sidebar_links">
+              <Link className="sidebar_link" href="/about">
+                About us
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div
+        className={` ${isOpen === true ? "active" : ""}`}
+        onClick={ToggleSidebar}
+      ></div>
     </>
   );
 };
 
-export default navbar;
+export default Navbar;
