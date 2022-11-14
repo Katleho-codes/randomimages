@@ -55,11 +55,6 @@ const navbar = () => {
               About us
             </Link>
           </li>
-          <li className="menu_links">
-            <Link className="menu_link" href="/gallery">
-              Gallery
-            </Link>
-          </li>
         </ul>
         <Link href="/apply" className="apply_btn">
           Apply
