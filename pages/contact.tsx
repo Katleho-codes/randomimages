@@ -9,7 +9,7 @@ const Contact = () => {
     budget: "",
     subject: "",
   });
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     setState({
       ...state,
       [e.target.name]: e.target.value,
