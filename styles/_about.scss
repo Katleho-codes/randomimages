@@ -7,6 +7,8 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
+        font-weight: 600;
+        margin-bottom: 3rem;
         // text-align: center;
     }
 
@@ -33,6 +35,8 @@
             list-style-type: decimal-leading-zero;
         }
     }
+
+    section.what_we_do {}
 }
 
 @media (max-width:992px) {

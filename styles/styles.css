@@ -480,6 +480,8 @@ section.filter_buttons .btn {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  font-weight: 600;
+  margin-bottom: 3rem;
 }
 .about .vision_mission {
   display: grid;
@@ -497,7 +499,6 @@ section.filter_buttons .btn {
   color: #212529;
   list-style-type: decimal-leading-zero;
 }
-
 @media (max-width: 992px) {
   .about .page_title h1 {
     font-size: 2rem;

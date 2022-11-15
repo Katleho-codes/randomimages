@@ -12,13 +12,13 @@ const about = () => {
           <section className="content">
             <div className="backstory">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                fugiat amet explicabo perspiciatis totam doloribus facilis,
-                necessitatibus dignissimos soluta quibusdam? <br /> Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Assumenda mollitia
-                sed quibusdam repellat, <br /> unde earum officiis! Obcaecati
-                possimus cumque at nesciunt vitae id repudiandae ut? Sequi
-                maiores ipsa voluptatum vero.
+                The company itself is a very successful company. I will explain
+                that it will be avoided if you see the whole with easy pains,
+                and some of the most worthy needs are solved? It is very
+                important for the customer to pay attention to the adipiscing
+                process. Resilience should be assumed but repels some, hence
+                their duties! We can be blinded and do not know how to reject
+                life? I followed the greater pleasures themselves.
               </p>
             </div>
           </section>
@@ -54,16 +54,20 @@ const about = () => {
               <h2>Our mission</h2>
               <div className="text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates dolores nihil in debitis veniam perferendis quae
-                  soluta, porro inventore saepe itaque autem eveniet? Error
-                  dolorum labore cum placeat maxime velit iure, voluptas
-                  tempora, possimus dicta doloremque accusamus, illum itaque!
-                  Explicabo ea ipsum ipsa voluptates tenetur nostrum dolore
-                  eaque! Architecto, nesciunt?
+                  The company itself is a very successful company. Pleasures and
+                  pains are nothing in the forgiveness of debts that have been
+                  paid, but will it often happen to the inventor? The error of
+                  pains with labor, when it is most pleasing to the right, the
+                  times of pleasure, we can say and accuse him of pain,
+                  therefore! I will explain that the very pleasures are bound to
+                  our pain! Do they not know the architect?
                 </p>
               </div>
             </div>
+          </section>
+
+          <section className="what_we_do">
+            <h2>What we do</h2>
           </section>
         </div>
       </main>
